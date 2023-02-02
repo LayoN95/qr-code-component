@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 3 1fr;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 20px;
+  padding: 20px;
+}
+.card__img {
+  width: 100%;
+  border-radius: 15px;
+}
+.card__title {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.card__text {
+  color: hsl(220deg, 15%, 55%);
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */

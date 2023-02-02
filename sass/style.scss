@@ -1,0 +1,40 @@
+@import "./colors";
+
+// - Mobile: 375px
+// - Desktop:
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: $gray;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 3 1fr;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  background-color: $white;
+  border-radius: 20px;
+  padding: 20px;
+
+  &__img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  &__title {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  &__text {
+    color: $Grayish_blue;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+}
